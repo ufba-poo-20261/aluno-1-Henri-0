@@ -16,6 +16,19 @@ package br.ufba.poo.lista2;
  */
 public class Aluno {
 
+    private String matricula;
+
+    private String nome;
+
+    public void setNome(String n) {
+        nome = n;
+    }
+    public String getMatricula(){
+        return matricula;
+    }
+    final void setMatricula (String m) {
+        matricula = m;
+    }
     public Aluno(String matricula, String nome) {
     }
 }
