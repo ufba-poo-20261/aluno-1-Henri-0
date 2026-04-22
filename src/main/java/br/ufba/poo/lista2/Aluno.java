@@ -29,7 +29,9 @@ public class Aluno {
     final void setMatricula (String m) {
         matricula = m;
     }
-    public Aluno(String matricula, String nome) {
+    public Boolean alunoExiste (String m, String n){
+        return m.equals(matricula);
+    }
+    public Aluno(String matricula, String nome){
     }
 }
-
